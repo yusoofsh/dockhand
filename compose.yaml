@@ -9,6 +9,6 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - /var/lib/dockhand:/var/lib/dockhand
     x-caddy: |
-      dockhand.yusoofsh.cloud {
+      dockhand.yusoofsh.id {
         reverse_proxy {{upstreams 3000}}
       }
